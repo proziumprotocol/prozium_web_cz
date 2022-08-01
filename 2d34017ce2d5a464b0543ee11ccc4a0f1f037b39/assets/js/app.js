@@ -148,6 +148,8 @@ function calculatorResult(time, money) {
 
   // apr
   $(".js--incomeCalcResult_apr").text(APR);
+
+  $(".js--textCalcValue").text(numberWithComma(parseInt(m).toFixed(0)));
 }
 
 function drawChart() {
